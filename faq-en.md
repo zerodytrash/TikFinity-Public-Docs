@@ -55,3 +55,8 @@ The TikTok Algorithm always changes and there are no clear rules on what is caus
 6. Click on „Test Connection“ and you should see that the connection has been established successfully.
 (If it isn't working, make sure you opened the run.bat file of your server and that the server is running)
 7. To create interactions with your game, all you do now is go to your Actions & Events and create your desired Actions. Check „Exec Minecraft Command“ and enter the command. Then you just bind it to an action and you have set up your first interaction!
+
+### How can I spawn multiple TNT at once in Minecraft?
+This is very easy to do with the following TNT command generator: https://nicemarkmc.com/multiple-tnt-at-once
+
+After you have opened the website you only have to set the FuzeTime (the time in ticks (20 ticks = 1 second) until the TNT explodes) as well as the number of TNTs and after a small change you can now use the generated command in TikFinity. Important: In order for the command to work in TikFinity, you only have to add "execute at PLAYERNAME run " at the beginning of the generated command. An example to spawn 2 TNTs at once: "execute at PLAYERNAME run summon area_effect_cloud ~ ~1 ~ {Passengers:[{id:tnt},{id:tnt}]}"
