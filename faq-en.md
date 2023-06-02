@@ -60,3 +60,9 @@ The TikTok Algorithm always changes and there are no clear rules on what is caus
 This is very easy to do with the following TNT command generator: https://nicemarkmc.com/multiple-tnt-at-once
 
 After you have opened the website you only have to set the FuzeTime (the time in ticks (20 ticks = 1 second) until the TNT explodes) as well as the number of TNTs and after a small change you can now use the generated command in TikFinity. Important: In order for the command to work in TikFinity, you only have to add `execute at PLAYERNAME run ` at the beginning of the generated command. An example to spawn 2 TNTs at once: `execute at PLAYERNAME run summon area_effect_cloud ~ ~1 ~ {Passengers:[{id:tnt},{id:tnt}]}`
+
+### I get this error when trying to join my minecraft server: „Failed to Verify Username"
+This error occurs when the player cannot be verified on the Mojang session servers. This is mostly the case when a player is using unofficial/cracked versions of Minecraft (if not try restarting the game). To solve this problem open the server.properties file which should be in the directory of your Minecraft server and change the text (probably in line 23) from `online-mode=true` to `online-mode=false` and you're done your problem should be solved!
+
+### Help! The console of my Minecraft server closes again directly when I want to open it!
+Be sure you have the latest Java version installed on your computer/server, adjust the start script (e.g. by changing java to your Java directory) and check if you have also adjusted it in the Java Home Environment (https://www.youtube.com/watch?v=bUnUtt-fe3s&pp=ygUNc2V0IGphdmEgaG9tZQ%3D%3D)
