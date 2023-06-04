@@ -31,14 +31,14 @@ While some of our Staff can help you with basic Minecraft commands and features,
 Tikfinity costs 19€ / month and grants you access to unlimited Actions & Events, unlimited Sound Alerts, and up to 100.000 points system users in your database.
 Experimental Features are also accessible and you have a high support priority.
 You can also request the „Pro User“ Role in our Discord Server!
- 
+
 ### How can I cancel my subscription to Tikfinity Pro?
 You can cancel your Subscription by going to Setup -> Tikfinity Pro -> Cancel Subscription.
- 
+
 ### Can I obtain a Stream Key from TikTok and what are the requirements?
 Currently, there are no set requirements to obtain an official Stream Key by TikTok. TikTok issues Streamkeys to Creators that positively got TikTok's attention. They will reach out to you.
 There also are some Agencies that can request a Stream Key for you.
- 
+
 ### Why are my live streams being limited / why do I receive a warning in my live streams?
 The TikTok Algorithm always changes and there are no clear rules on what is causing limitations or warnings in your livestreams except for the ToS. A few basic rules we were able to establish as a community were the following:
 
