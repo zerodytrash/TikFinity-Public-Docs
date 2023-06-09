@@ -66,3 +66,17 @@ This error occurs when the player cannot be verified on the Mojang session serve
 
 ### Help! The console of my Minecraft server closes again directly when I want to open it!
 Be sure you have the latest Java version installed on your computer/server, adjust the start script (e.g. by changing java to your Java directory) and check if you have also adjusted it in the Java Home Environment (https://www.youtube.com/watch?v=bUnUtt-fe3s&pp=ygUNc2V0IGphdmEgaG9tZQ%3D%3D)
+
+### My server installed on the Pterodactyl Panel does not connect to TikFinity!
+Solution if you are the owner of the panel:
+     1. Open the admin panel (for default: https://YOURPTERODACTYLPANELIPORADDRESS/admin)
+     2. Go to Nodes and click on the Nodename of the server where your minecraft-server is hosted on
+     3. Click on Allocation and Assign a New Allocation by setting the IP-Address (to the ip-address of the server) and the Ports to the ServerTap port (by default: 4567)
+     4. Click on Submit and switch to the Servers section
+     5. After switching click on the servername of your minecraft-server, click on Build Configuration, assign the ServerTap port (Assign Additional Ports) and click on Update Build Configuration
+     6. Now you're ready to go! Just start/restart your pterodactyl-server and have fun with using TikFinity
+Solution if you aren't the owner of the panel:
+     1. Go to your Pterodactyl-Server and switch to Network
+     2. Click on Create Allocation and set the port which should be added to the ServerTap port (by default: 4567)
+     3. Now you're ready to go! Just start/restart your pterodactyl-server and have fun with using TikFinity  
+If the Network-Section or the Create Allocation button does not appear please contact the owner of the panel and ask him for permission
